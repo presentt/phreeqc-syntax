@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="Phreeqc" ext="ppi pqi phrq phr dat out tpl" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="yes" foldCompact="yes" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03# 04</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">( ) ; + - * / ,</Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open">[</Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close">]</Keywords>
+            <Keywords name="Keywords1">ADVECTION CALCULATE_VALUES COPY DATABASE DELETE DUMP END EQUILIBRIUM_PHASES EQUILIBRIUM_PHASES_MIX EQUILIBRIUM_PHASES_MODIFY EXCHANGE EXCHANGE_MIX EXCHANGE_MASTER_SPECIES EXCHANGE_MODIFY EXCHANGE_SPECIES GAS_PHASE GAS_PHASE_MIX GAS_PHASE_MODIFY INCLUDE$ INCREMENTAL_REACTIONS INVERSE_MODELING ISOTOPES ISOTOPE_ALPHAS ISOTOPE_RATIOS KINETICS KINETICS_MIX KINETICS_MODIFY KNOBS LLNL_AQUEOUS_MODEL_PARAMETERS MEAN_GAMMAS MIX NAMED_EXPRESSIONS PHASES PITZER PRINT RATES REACTION REACTION_MODIFY REACTION_TEMPERATURE REACTION_TEMPERATURE_MODIFY RATE_PARAMETERS_PK RATE_PARAMETERS_SVD RATE_PARAMETERS_HERMANSKA RUN_CELLS SAVE SELECTED_OUTPUT SIT SOLID_SOLUTIONS SOLID_SOLUTIONS_MIX SOLID_SOLUTIONS_MODIFY SOLUTION SOLUTION_MIX SOLUTION_MASTER_SPECIES SOLUTION_MODIFY SOLUTION_SPECIES SOLUTION_SPREAD SURFACE SURFACE_MIX SURFACE_MASTER_SPECIES SURFACE_MODIFY SURFACE_SPECIES TITLE TRANSPORT USE USER_GRAPH USER_PRINT USER_PUNCH REACTION_PRESSURE</Keywords>
+            <Keywords name="Keywords2">-ALPHAS -B0 -B1 -B2 -C0 -Eh -Gugg_kJ -Gugg_nondim -LAMDA -MacInnes -Margules -Millero -PSI -THETA -Thompson -ZETA -active -activities -activity_coefficients -activity_water -add_constant -add_logk -alkalinity -alyotropic_point -analytical_expression -axis_scale -axis_titles -bad_step_max -balances -bdot -boundary_conditions -calculate_values -capacitance -cd_music -cells -censor_mp -censor_species -charge_balance -chart_title -co2_coefs -co2_llnl_gamma -comp -comp1 -comp2 -connect_simulations -convergence_tolerance -correct_disp -critical_point -cvode -cvode_order -cvode_steps -davies -debug_diffuse_layer -debug_inverse -debug_mass_action -debug_mass_balance -debug_model -debug_prep -debug_set -delta_h -density -detach -dh_a -dh_b -diagonal_scale -diffuse_layer -diffusion_coefficient diffusion_only -dispersivities -dissolve_only -distance -distribution_coefficients -donnan -dump -dump_frequency -dump_restart -dw -echo_input -end -equilibrate -equilibrium_phases -erm_ddl -exchange -file -fixed_pressure -fixed_volume -flow_direction -force_equality -force_solutions -formula forw -gamma -gas_phase -gases -grid_offset -headings -high_precision -initial_isotopes -initial_solutions -initial_time -interlayer_d -inverse_modeling -ionic_strength -isotope -isotope_alphas -isotope_ratios -isotope_uncertainty -isotopes -iterations -kinetic_reactants -kinetics -lengths -llnl_gamma -logfile -log_k -lon_netpath -m -m0 -mineral_water -minimal -miscibility_gap -molalities -moles -mole_balance -mp_tolerance -multi_d -multiple_precision -no_check -no_edl -only_counter_ions -other -pH -parms -pat_netpath -pe -pe_step_size -percent_error -phases -pitzer_exchange_gammas -plot_concentration_vs -plot_csv_file -plot_tsv_file -plot_xy -precipitate_only -pressure -print_cells -print_frequency -punch_cells -punch_frequency -range -reaction -redox -reset -runge_kutta -saturation_indices -selected_out -selected_output -shifts -simulation -sites_units density -solid_solutions -solution -solutions -species -spinodal_gap -stagnant -start -state -status -step -step_divide -step_size -steps -surface -temp -temperature -tempk -thermal_diffusion -time -time_step -tol -tolerance -totals -uncertainty -uncertainty_water-units -use_etheta -user_graph -user_print -user_punch -volume -warnings -water -component -name -add_formula -si -exchange_gammas -phase_name -rate_name -phase_proportion -type -total_p -units -reactant_list -equal_increments -count_steps -solid_solution -name -components -a0 -a1 -ag0 -ag1 -miscibility -xb1 -xb2 -total_h -total_o -cb -mu -ah2o -thickness -debye_lengths -DDL_viscosity -DDL_limit -limit_DDL -transport -namecoef -d_params -equal_steps -rk -use_cvode -T_c -P_c -Omega -Vm -epsilon -batch -viscosity -potential -porosities -fix_current -new_line -numerical_derivatives -implicit -same_model ALPHAS B0 B1 B2 C0 Eh Gugg_kJ Gugg_nondim LAMDA MacInnes Margules Millero PSI THETA Thompson ZETA active activities activity_coefficients activity_water add_constant add_logk alyotropic_point analytical_expression axis_scale axis_titles backward bad_step_max balances bdot boundary_conditions capacitance cd_music cells censor_mp censor_species charge_balance chart_title co2_coefs co2_llnl_gamma comp comp1 comp2 connect_simulations convergence_tolerance correct_disp correct_GC critical_point cvode cvode_order cvode_steps davies debug_diffuse_layer debug_inverse debug_mass_action debug_mass_balance debug_model debug_prep debug_set delta_h density detach dh_a dh_b diagonal_scale diffuse_layer diffusion_coefficient dispersivities dissolve_only distance distribution_coefficients donnan dump_frequency dump_restart dw echo_input equilibrate erm_ddl file fixed_pressure fixed_volume flow_direction force_equality force_solutions formula forw forward gamma gases grid_offset headings high_precision initial_isotopes initial_solutions initial_time interlayer_d ionic_strength isotope_uncertainty iterations kinetic_reactants lengths llnl_gamma logfile log_k lon_netpath m m0 mineral_water minimal miscibility_gap molalities moles mole_balance mp_tolerance multi_d multiple_precision no_check no_edl only_counter_ions other parms pat_netpath pe_step_size percent_error pitzer_exchange_gammas plot_concentration_vs plot_csv_file plot_tsv_file plot_xy precipitate_only pressure print_cells print_frequency punch_cells punch_frequency range redox reset runge_kutta saturation_indices selected_out shifts simulation sites_units density species spinodal_gap stagnant start state status step step_divide step_size steps temp temperature tempk thermal_diffusion time time_step tol tolerance totals uncertainty uncertainty_water units use_etheta volume warnings water Red, Green, Blue, Orange, Magenta, Yellow, Black, Red Green Blue Orange Magenta Yellow Black Square, Diamond, Triangle, Circle, XCross, Plus, Star, TriangleDown, HDash, VDash, None, Square Diamond Triangle Circle XCross Plus Star TriangleDown HDash VDash None component name add_formula si exchange_gammas phase_name rate_name phase_proportion type total_p units reactant_list equal_increments count_steps solid_solution name components a0 a1 ag0 ag1 miscibility xb1 xb2 total_h total_o cb mu ah2o thickness debye_lengths DDL_viscosity potential porosities DDL_limit limit_DDL transport namecoef d_params equal_steps rk use_cvode T_c P_c Omega Vm epsilon batch viscosity fix_current new_line numerical_derivatives implicit same_model meang</Keywords>
+            <Keywords name="Keywords3">ACT ALK APHI CALC_VALUE CELL_NO CHANGE_POR CHANGE_SURF CHARGE_BALANCE Color CURRENT_A DESCRIPTION DIST EDL EDL_SPECIES EQUI EXISTS FALSE GAS GAMMA GET GET_POR GRAPH_X GRAPH_Y GRAPH_SY KIN QBRN KINETICS_FORMULA$ KIN_DELTA KIN_TIME LA LG Line_width LIST_S_S LK_NAMED LK_PHASE LK_SPECIES LM M M0 MISC1 MISC2 MOL MU OSMOTIC PARM PERCENT_ERROR PHASE_FORMULA$ PHASE_VM PLOT_XY POT_V PRINT PUNCH PUT RHO RHO_0 RXN SAVE SC SI SIM_NO SIM_TIME SPECIES_FORMULA$ SR STEP_NO SUM_GAS SUM_SPECIES SUM_S_S SURF SYS Symbol Symbol_size S_S TC TK TIME TOT TOTAL_TIME TOTMOLE TRUE PLOT_XY PR_P PR_PHI GAS_P GAS_VM PRESSURE EPS_R VM EOL$ EOL_NOTAB$ NO_NEWLINES KAPPA GFW SOLN_VOL DEBYE_LENGTH DH_A DH_A0 DH_B DH_BDOT DH_Av DIFF_C Qbrn VISCOS VISCOS_0 T_SC F_VISC DELTA_H_PHASE DELTA_H_SPECIES DH_A0 DH_BDOT DIFF_C SETDIFF_C MCD_JTOT MCD_JCONC MEANG</Keywords>
+            <Keywords name="Keywords4">ABS AND ARCTAN ASC CHR$ CEIL COS DATA DIM ELSE ERASE EXP FLOOR FOR GOSUB GOTO IF INSTR LEN LOG LOG10 LTRIM MID$ MOD NEXT NOT ON OR PAD READ REM RESTORE RETURN RTRIM SGN SIN SQR SQRT STEP STR$ STR_E$ STR_F$ TAN THEN TO TRIM VAL WEND WHILE</Keywords>
+            <Keywords name="Keywords5"></Keywords>
+            <Keywords name="Keywords6"></Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&apos; 01 02&apos; 03&quot; 04 05&quot; 06ERROR: 07 08((EOL)) 09WARNING: 10 11((EOL)) 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="00CCCC" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="10" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="800040" bgColor="FFFFC4" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="FF00FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FF80FF" fontName="" fontStyle="1" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="0000FF" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="008040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>

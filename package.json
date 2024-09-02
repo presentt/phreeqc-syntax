@@ -1,0 +1,33 @@
+{
+  "name": "phreeqc-syntax",
+  "version": "0.0.1",
+  "publisher": "Vitor Cantarella",
+  "description": "Syntax highlighting and language support for PHREEQC in vscode.",
+  "categories": ["Programming Languages", "Formatters"],
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "phreeqc",
+      "aliases": ["PHREEQC", "phreeqc"],
+      "extensions": [".phr", ".ppi", ".pqi", ".phrq", ".dat", ".out"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "phreeqc",
+      "scopeName": "source.phreeqc",
+      "path": "./phreeqc.tmLanguage.json"
+    }]
+  },
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vcantarella/phreeqc-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/vcantarella/phreeqc-syntax/issues"
+  },
+  "homepage": "https://github.com/vcantarella/phreeqc-syntax#readme",
+  "license": "MIT"
+}
