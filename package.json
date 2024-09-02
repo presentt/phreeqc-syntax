@@ -1,7 +1,7 @@
 {
   "name": "phreeqc-syntax",
   "version": "0.0.1",
-  "publisher": "Vitor Cantarella",
+  "publisher": "VitorCantarella",
   "description": "Syntax highlighting and language support for PHREEQC in vscode.",
   "categories": ["Programming Languages", "Formatters"],
   "engines": {
