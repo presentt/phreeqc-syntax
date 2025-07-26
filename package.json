@@ -26,6 +26,13 @@
         "text": "powershell -Command \"phreeqc '${file}'; code '${file}.out'; if (Test-Path '${file}.sel') { code '${file}.sel' }\"\r"
       },
       "when": "resourceExtname == .phr"
+    }, {
+      "key": "ctrl+f5",
+      "command": "workbench.action.terminal.sendSequence",
+      "args": {
+        "text": "pp.exe \"${file}\"\r"
+      },
+      "when": "resourceExtname == .ppi"
     }]
   },
   "configurationDefaults": {
