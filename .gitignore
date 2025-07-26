@@ -1,0 +1,9 @@
+# Development and planning files (not for upstream PR)
+CLAUDE.md
+phreeqc_extension_project_plan.md
+.claude/
+
+# VS Code extension development
+out/
+node_modules/
+*.vsix
