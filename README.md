@@ -9,12 +9,14 @@ It borrows heavily from the syntax highlighting features from the original Notep
 
 ## Usage
 
-After installation, open a `.phr` file and edit it as you would any scripting language. syntax highlighting will appear and basic language functionality will be available (eg. commenting and indentation).
+After installation, open a `.phr` file and edit it as you would any scripting language. syntax highlighting will appear and basic language functionality will be available (eg. commenting and indentation). Press Ctrl+F5 to run PHREEQC files directly from VS Code (if installed and added to path). A terminal must be open for the command to execute.
 
 This package does not include a Phreeqc installation. If you need to install PHREEQC,you will have to do it yourself. Both distributions should work:
 
 - [Appelo's webiste](https://www.hydrochemistry.eu/)
 - [USGS](https://www.usgs.gov/software/phreeqc-version-3)
+
+For Ctrl+F5 execution functionality, PHREEQC must be installed and added to your system PATH. For PhreePlot support (.ppi files), install [PhreePlot](https://www.phreeplot.org/) and ensure pp.exe is accessible in your PATH.
 
 
 ## Quickstart
@@ -50,7 +52,7 @@ Select the .vsix file and click Open.
 
 ## Disclaimer
 
-This is just a syntax-highlighter for facilitating text editing and reading phreeqc files. It does not interfere in how PHREEQC executes the scripts. Use it at your own risk.
+This extension provides syntax highlighting and execution shortcuts for PHREEQC and PhreePlot files. The execution functionality runs external commands and does not interfere with how PHREEQC or PhreePlot process the scripts. Use it at your own risk.
 This project is not an official PHREEQC or USGS project, nor it is endorsed by the authors of PHREEQC and related organizations.
 
 ## License
