@@ -3,6 +3,9 @@ CLAUDE.md
 phreeqc_extension_project_plan.md
 .claude/
 
+# Testing files
+test/
+
 # VS Code extension development
 out/
 node_modules/
