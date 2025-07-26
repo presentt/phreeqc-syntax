@@ -55,6 +55,10 @@ Select the .vsix file and click Open.
 This extension provides syntax highlighting and execution shortcuts for PHREEQC and PhreePlot files. The execution functionality runs external commands and does not interfere with how PHREEQC or PhreePlot process the scripts. Use it at your own risk.
 This project is not an official PHREEQC or USGS project, nor it is endorsed by the authors of PHREEQC and related organizations.
 
+## Uninstalling
+
+When uninstalling this extension, keybindings and syntax highlighting are automatically removed. File encoding settings for .out and .sel files will remain in your VS Code settings. To remove these, go to Settings and search for "encoding" to reset any unwanted defaults.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
