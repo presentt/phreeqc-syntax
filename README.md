@@ -50,6 +50,28 @@ A file dialog will open. Navigate to the directory where your .vsix file is loca
 Select the .vsix file and click Open.
   2.4. Restart Visual Studio Code
 
+## Output File Encoding
+
+PHREEQC output files (.out, .sel) often contain special characters that may display incorrectly with UTF-8 encoding. To ensure proper display:
+
+1. Open VS Code Settings (Ctrl+,)
+2. Search for "encoding"
+3. Set the following language-specific encoding:
+   ```json
+   "[phreeqc]": {
+     "files.encoding": "windows1252",
+     "files.autoGuessEncoding": true
+   }
+   ```
+
+Alternatively, manually change encoding for individual files using the encoding selector in the bottom status bar.
+
+<p align="center">
+<img src="images/encoding.png" width=75%>
+<br/>
+<em>(Example of encoding configuration in VS Code settings)</em>
+</p>
+
 ## Disclaimer
 
 This extension provides syntax highlighting and execution shortcuts for PHREEQC and PhreePlot files. The execution functionality runs external commands and does not interfere with how PHREEQC or PhreePlot process the scripts. Use it at your own risk.

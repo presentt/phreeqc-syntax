@@ -36,11 +36,10 @@
     }]
   },
   "configurationDefaults": {
-    "files.encoding": {
-      "*.out": "windows1252",
-      "*.sel": "windows1252"
-    },
-    "files.autoGuessEncoding": true
+    "[phreeqc]": {
+      "files.encoding": "windows1252",
+      "files.autoGuessEncoding": true
+    }
   },
   "icon": "images/icon.png",
   "repository": {
